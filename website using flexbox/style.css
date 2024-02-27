@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2.7;
+}
+div.body{
+   
+    background-color:#333333;
+   padding-top: 30px;
+}
+#home{
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+header{
+    height: 50%;
+    width:80%;
+}
+.navbar-brand{
+    padding-right:54%;
+    font-size: x-large;
+    font-style:inherit;
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-weight: 800;
+    font-size:large;
+    color: white;
+    padding: 5px;
+   
+}
+
+
+
+.line{
+    padding-bottom: 2px;
+    color: white;
+    margin-bottom: 20px;
+}
+section{
+    position: relative;
+    border-radius: 10px;
+    padding:20px;
+    display: flex;
+    z-index: 2;   
+}
+.overlay{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    padding:20px;
+    z-index: -1;
+    background:linear-gradient(rgba(2, 2, 12, 0.9),rgba(1, 1, 16, 0.9));
+}
+.bg-cover{
+    background-position:center ;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.company{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom:15px;   
+}
+p{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom:15px;
+}
+h1{
+    text-align: center;
+    color: blanchedalmond ;
+
+}
+.container{
+    color:#ece5e5;
+    text-align:center;
+
+}
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-btn-main:hover{
+    color: black;
+    transform: translateY(-3px);
+    cursor:grab;
+}
+.btn-btn-main{
+    background:linear-gradient(To left,#39ace9b3,#3a98d2b3);
+    color: #fff;
+    font-weight:600px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+}
+.btn-learn{
+    color: rgb(32, 22, 22);
+    border:none;
+    font-weight:600px;
+    border-radius: 100px;
+    padding: 10px;
+}
+.btn-learn:hover{
+    color: #126d9db3;
+    transform: translateY(-3px);
+    cursor: grab;
+}
+.box-1{
+    width: 80%;
+    height: 75vh;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+}
+.box{
+    width: 90%;
+    height: 143vh;
+    border-radius: 10px;
+    z-index: 2;
+    margin: auto;
+    background-color: #fff;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.service{
+    display: flex;
+}
+.about-service{
+    background-color: #d8caca;
+    height: 300px;
+    margin: 30px;
+}
+img{
+    width: 250px;
+    height: 230px;
+    margin-right: 5px;
+    margin-top: 13px;
+}
+
+h3{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    margin: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+b{
+    color: #333333;
+}
+.ser-container{
+    background-color: rgb(217, 136, 31);
+    width: 150px;
+    height: 90px;
+    margin-top: 180px;
+}
+.p-target{
+    font-size: xx-small;
+}
+footer {
+    height: 50vh;
+    background-color:#fff;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+.footer-container {
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    display: flex;   
+}
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+.break{
+    background-color:#333333 ;
+    width: 150vh;
+    margin: auto;
+    margin-top: 20px;
+}
+.call{
+    display: flex;
+}
+.phone{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 30px;
+    margin-top: 48px;
+}
+.email{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 30px;
+    margin-top: 48px;
+}
+.message{
+    margin: 30px;
+    display: flex;
+}
+.copy{
+    color: #666666;
+    text-align: center;
+    margin-top: 12px;
+}
+.icons{
+    color: #666666;
+    padding: 0%;
+    margin-top: 20px;
+}
+.social-media {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 82vh;
+}
+.card{
+    width: 30%;
+    height: 59vh;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border:1px solid rgba(128, 128, 128, 0.064);
+    background-color: #EEEEEE;
+    border: #d8caca;
+    border-top:4px solid #0E9AA7;
+}
+.card-img-top{
+    width: 6rem;
+    height:20vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27%;
+    margin-top: 30px;
+}
+.card-title{
+    text-align: center;
+    color: #333333;
+}
+.card-text{
+    color: #666666;
+}
+.b-top{
+    margin-top:10px;
+}
+.face{
+    width: 20px;
+    height: 20px;
+    margin-left: 65px;
+}
+.pin{
+    width: 20px;
+    height: 20px;
+}
+.link{
+    width: 20px;
+    height: 20px;
+}
+.box-2{
+    width: 80%;
+    height: 65vh;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+}
+.designing{
+    width: 4rem;
+    height:15vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+.market{
+    width: 5rem;
+    height:15vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 50px;
+    
+}
+.analytics{
+    width: 5rem;
+    height:15vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+.diagram{
+    font-size: smaller;
+    color: #666666;
+}
+.box-3{
+    width: 70%;
+    height: 75vh;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+}
+.packages{
+    width: 40%;
+    height: 65vh;
+    margin: auto;
+    border: 1px solid grey;
+    
+}
+.dollars{
+    width: 54vh;
+    height: 50px;
+    background-color: black;
+    
+}
+span{
+    font-size: large;
+    font-weight: 800px;
+}
+.paid{
+    color: white;
+    font-size: x-small;
+}
+.btn{
+    background-color:#0E9AA7;
+    color: white;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 84px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    color: black;
+    transform: translateY(-3px);
+    cursor:grab;
+}
+
